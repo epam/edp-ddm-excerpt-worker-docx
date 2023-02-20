@@ -27,7 +27,7 @@
     <spring.cloud.version>2021.0.0</spring.cloud.version>
     <apache.commons.version>2.8.0</apache.commons.version>
     <jackson.core.version>2.13.4</jackson.core.version>
-
+    <postgresql.version>42.3.3</postgresql.version>
     <sonar.coverage.exclusions>
       <!-- do not calc coverage for the classes without BL: -->
       **/**/ExcerptWorkerApplication*,
@@ -182,6 +182,7 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
+      <version>${postgresql.version}</version>
     </dependency>
 
     <dependency>
